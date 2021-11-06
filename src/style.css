@@ -1,0 +1,41 @@
+:root {
+  --sparkgeo-brand-color: #e3842d;
+}
+
+html,
+body {
+  color: #444;
+  background: #ccc;
+  padding: 10px 20px;
+
+
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  text-transform: capitalize;
+}
+
+
+/* Make clicks pass-through */
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  background: var(--sparkgeo-brand-color);
+}
+
+/* Fancy blur effect */
+#nprogress .peg {
+
+  box-shadow: 0 0 10px var(--sparkgeo-brand-color), 0 0 5px var(--sparkgeo-brand-color);
+
+}
+
+#nprogress .spinner-icon {
+
+  border-top-color: var(--sparkgeo-brand-color);
+  border-left-color: var(--sparkgeo-brand-color);
+
+}
